@@ -154,7 +154,7 @@ syntax keyword fermModuleType
 syntax match fermVariable "$[_A-Za-z0-9]+"
 syntax keyword fermVarDefine @def 
 
-syntax keyword fermFunction @if @else @elsif @include @hook
+syntax keyword fermFunction @if @else @include @hook
     \ @eq @ne @not @resolve @cat @substr @length
     \ @basename @dirname @ipfilter
 
