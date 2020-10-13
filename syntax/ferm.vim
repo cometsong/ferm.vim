@@ -119,7 +119,7 @@ syntax keyword fermModuleType
 " From --icmp-type option
 syntax keyword fermModuleType
     \ any
-    \ echo-reply
+    \ echo-reply pong
     \ destination-unreachable
     \    network-unreachable
     \    host-unreachable
@@ -142,10 +142,10 @@ syntax keyword fermModuleType
     \    host-redirect
     \    TOS-network-redirect
     \    TOS-host-redirect
-    \ echo-request
+    \ echo-request ping
     \ router-advertisement
     \ router-solicitation
-    \ time-exceeded
+    \ time-exceeded ttl-exceeded
     \    ttl-zero-during-transit
     \    ttl-zero-during-reassembly
     \ parameter-problem
