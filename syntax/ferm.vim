@@ -125,6 +125,8 @@ syntax keyword fermModuleType
     \    host-unreachable
     \    protocol-unreachable
     \    port-unreachable
+    \    failed-policy
+    \    reject-route
     \    fragmentation-needed
     \    source-route-failed
     \    network-unknown
@@ -133,7 +135,10 @@ syntax keyword fermModuleType
     \    host-prohibited
     \    TOS-network-unreachable
     \    TOS-host-unreachable
+    \    no-route
     \    communication-prohibited
+    \    beyond-scope
+    \    address-unreachable
     \    host-precedence-violation
     \    precedence-cutoff
     \ source-quench
@@ -145,12 +150,18 @@ syntax keyword fermModuleType
     \ echo-request ping
     \ router-advertisement
     \ router-solicitation
+    \ neighbour-solicitation neighbor-solicitation
+    \ neighbour-advertisement neighbor-advertisement
+    \ packet-too-big
     \ time-exceeded ttl-exceeded
     \    ttl-zero-during-transit
     \    ttl-zero-during-reassembly
     \ parameter-problem
     \    ip-header-bad
     \    required-option-missing
+    \    bad-header
+    \    unknown-header-type
+    \    unknown-option
     \ timestamp-request
     \ timestamp-reply
     \ address-mask-request
