@@ -3,8 +3,7 @@
 "
 " Language:    ferm; "For Easy Rule Making", a frontend for iptables
 " Ferm Info:   http://ferm.foo-projects.org/
-" Version:     0.03
-" Date:        2013-01-09
+" Version:     0.2
 " Maintainer:  Benjamin Leopold <benjamin-at-cometsong-dot-net>
 " URL:         http://github.com/cometsong/ferm.vim
 " Credits:     Modeled after Eric Haarbauer's iptables syntax file.
