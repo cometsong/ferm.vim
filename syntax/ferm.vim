@@ -2,6 +2,7 @@
 " ferm syntax highlighter
 "
 " Language:    ferm; "For Easy Rule Making", a frontend for iptables
+" License:	   VIM License
 " Ferm Info:   http://ferm.foo-projects.org/
 " Version:     0.2
 " Maintainer:  Benjamin Leopold <benjamin-at-cometsong-dot-net>
