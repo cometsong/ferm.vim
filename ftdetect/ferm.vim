@@ -1,2 +1,1 @@
-autocmd BufNewFile,BufRead ferm.conf setf ferm 
-autocmd BufNewFile,BufRead *.ferm setf ferm
+au BufNewFile,BufRead  ferm.conf,*.ferm    setf ferm
