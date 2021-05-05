@@ -104,7 +104,7 @@ syntax keyword fermModuleType
     \ INVALID NEW ESTABLISHED RELATED UNTRACKED
     \ NONE EXPECTED SEEN_REPLY ASSURED CONFIRMED
     \ SYN ACK FIN RST URG PSH ALL
-    \ ip icmp tcp udp ipv6 gre esp ah ipv6-icmp
+    \ ip ip6 icmp tcp udp ipv6 gre esp ah ipv6-icmp
 
 " From --reject-with option
 syntax keyword fermModuleType
